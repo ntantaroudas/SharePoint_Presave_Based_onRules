@@ -1,4 +1,4 @@
-<!-- Javascript Source Code NTANTA 25/2/2020 -->
+<!-- Check Rules in other List and Presave Item in Current List SharePoint Online  -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
@@ -20,7 +20,7 @@ function PreSaveAction(){
     var Next_Action_Form = document.getElementById('Code_$DropDownChoice');
     var Next_Action_Form_Selected =  Next_Action_Form.options[Next_Action_Form.selectedIndex].text;
 
-	// control variable  
+    // control variable  
     var save = false;
 	
 	// AJAX CALL TO GET THE ELEMENTS Of "Workflow_Rule" LIST
