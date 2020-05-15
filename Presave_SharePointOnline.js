@@ -28,7 +28,7 @@ function PreSaveAction(){
 		url: _spPageContextInfo.webAbsoluteUrl + "/_api/web/lists/GetByTitle('Workflow_Rules')/Items?", 
 		type: "GET", 
 		cache: true,
-        async: false,
+        	async: false,
 		headers: {"accept": "application/json;odata=verbose"}, 
 		success: function (data) { 
 			if (data.d.results) {  
