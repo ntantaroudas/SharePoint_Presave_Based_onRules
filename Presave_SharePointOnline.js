@@ -44,7 +44,7 @@ function PreSaveAction(){
 					
 					if ( Ticket_Type_Form_Selected == Ticket_Type && Task_Type_Form_Selected == Task_Type && Next_Action_Form_Selected == Next_Action) {
 						
-						console.log('Rule found');
+					    console.log('Rule found');
 					    save = true; 
 					    						
 					}
